@@ -5,10 +5,10 @@
  id = "com.phonegap.app3"
  version ="1.0.0">
  
- <name>app3 Dia Mundial de la Bicicleta</name>
+ <name>app3 Dia  Mundial de la Bicicleta</name>
  
  <description>
- Aplicacion que muestra informacion del dia mundia de la bicicleta
+ Aplicacion que muestra informacion de el dia mundial de la bicicleta
  </description>
  
  <author href="https:build.phonegap.com" email="taco69088@gmail.com">
@@ -24,13 +24,6 @@
  <preference name="android-installLocation"  value="auto"/>
  <preference name="permissions"  value="INTERNET"/>
  
- <!--Para accesar a paginas en internet-->
- <allow-intent href="https://*/*"/>
- <acces origin="https://*/*"/>
- <allow-intent href="http://*/*"/>
- <acces origin="http://*/*"/>
- <plugin name="cordova-plugin-whitelist" source="npm"/>
-
  <!--Plugins-->
  <!--Core Plugins-->
  <plugin name="cordova-plugin-device" spec="~1.1.4"/>
